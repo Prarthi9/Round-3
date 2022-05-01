@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewreport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="file:///E:/fontawesome/css//all.css">
+
+  <style>
+  .img{background-image:url(b.jpg) ;
+    -webkit-background-size: cover;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 100vh;
+    position:fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(px);
+    -webkit-filter: blur(px);}
+ 
+  .container {
+    width: 800px;
+    height:500px;
+    margin: 50px auto;
+position:relative;
+padding-left: 10px;
+padding-right: 10px;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
+background: rgba(128, 128, 0, 0.1);
+    }
+   
+   .test{
+    width: 800px;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 0px 0px 2px  burlywood;
+    background:rgba(128, 128, 0, 0.1);
+
+   }
+    .container p {padding:10px;font-family: ;font-weight: 900;opacity:1;font-size: 23px;text-align: justify;}
+
+    *{
+      box-sizing: border-box;
+    }
+
+   
+    *{
+      box-sizing: border-box;
+    
+    
+    }
+    .social{
+      display: flex;
+      justify-content:center;
+      margin: 10px;
+      padding-right:25px;
+      
+
+    }
+    .social ul li{
+      display: inline-block;
+      width:50px;
+      height: 50px;
+      /*background-color: none;*/
+      margin: auto 10px;
+      box-shadow: 3px 3px 10px gray,
+      -4px -4px 10px white;
+      text-align: center;
+      line-height: 50px;
+      font-size: 25px;
+      
+      cursor: pointer;
+      border-radius: 50%;
+    
+    }
+    .social ul li .fa:hover{color: white;}    
+   
+    .social ul li a {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      background-color:#FFFFCC;
+      color: black;
+      transition: .6%;
+      box-shadow: 0 5px 4px rgba(0,0,0,.5);
+      border-radius: 50%;
+    }
+     .social ul li a:hover{transform: translate(0,-10px);}
+     .social ul li:nth-child(1) a:hover{background-color: #ff6600;}
+      .social ul li:nth-child(2) a:hover{background-color: #f94877;}
+       .social ul li:nth-child(3) a:hover{background-color: #3b5999;}
+        .social ul li:nth-child(4) a:hover{background-color:#af0606 ;}
+         .social ul li:nth-child(5) a:hover{background-color:#55acee;}
+          .social ul li:nth-child(6) a:hover{background-color:#25D366;}
+*{margin: 0;padding: 0;box-sizing: border-box;}
+nav{background: rgba(128, 128, 128, .1);line-height: 0px;}
+
+nav:after{content:'';
+clear:both;
+display: table;
+}
+img{
+  width: 120px;height: 120px;margin-left: -25px;margin-top: -80px;}
+
+ 
+
+
+nav .logo{color: #a9c25d    ;
+  font-size: 50px;
+  font-weight:900;
+  padding-left: 65px;
+  letter-spacing: 5px;
+  margin-top: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+line-height: 40px;}
+
+nav ul{float: right;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+  margin-top: -60px;
+
+  
+}
+nav ul li{float: left;
+ display: inline-block;
+background:beige;
+margin: 0 10px;
+margin-top: 0;
+border: 2px solid white;
+text-align: center;
+}
+nav ul li:hover{background:#73a24e;}
+nav ul li a{color: black;
+text-decoration:none ;
+line-height: 34px;
+font-size: 18px;
+padding: 8px 15px;
+font-size: 13px;
+}
+nav ul li a:hover{
+  color:black ;
+   border-radius: 2px;
+  box-shadow: 0 0 1px ,
+              0 0 1px ;
+            
+}
+
+nav ul ul{ position: absolute;
+top: 99px;
+opacity: 0;
+visibility: hidden;
+
+ }
+ nav ul li:hover ul{opacity: 1;
+  top: 99px;
+  visibility: visible;
+  
+}
+
+ nav ul ul li{position: relative;
+  margin: 0px;
+  width: 140px;
+  height: 40px;
+  float: none;
+  display: list-item;
+  border-bottom: 2px solid rgba(255, 255, 0, 0.2);
+  font-size: 1px;
+
+ }
+
+.x{
+  height: 70px ;
+  width: 400px;
+    margin: 50px auto;
+position:relative;
+padding-left: 50px;
+padding-right: 10px;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
+background: rgba(128, 128, 0, 0.1);
+}
+
+    * {box-sizing:border-box}
+
+
+.slider {
+  max-width: 1000px;
+  max-height: 1000px;
+  height: 100px;
+position: relative;
+  margin-top:auto;
+  margin-top: 150px;
+  padding-left: 400px;
+
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.previos, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin-left: -65px;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.previos:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding-right: 500px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.numbertext {
+  color: orange;
+  font-size: 12px;
+  padding: 10px 12px;
+  margin-top: 50px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active, .dot:hover {
+  background-color: pink;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+      
+  </style>
+     
+
+</head>
+  
+      <body>
+        <div class="img"></div>
+        
+  <nav>
+
+    <div class="logo">A day among the animals</div>
+      <img src="foundation.png" >
+    
+    <ul >
+      <li ><a href="#"><b>about us</b></a></li>
+     <li><a href="#"><b>book ticket</b></a></li>
+   <li><a href=""><b>photos</b></a></li>
+
+        </ul>
+  </nav>
+  
+    
+  <div class="social">
+
+
+    <ul>
+
+     <li><a href="abc.html" ><i class="fa fa-home"></i></a></li>
+  <li><a href="/" ><i class="fa fa-instagram"></i></a></li>
+  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+  <li><a href=""><i class="fa fa-youtube"></i></a></li>
+  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+  </ul>
+
+
+  </div>
+
+
+    <h1 style="text-align:center;color:#416a59;margin-left: 500px;margin-right: 500px;margin-bottom:0;margin-top:0 ;font-size:100px;background: rgba(255, 255, 0, .1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);"> <b>ABC</b> </strong> </h1><br>
+    
+  
+      <h2 style="text-align:center;color:#a9c25d;box-shadow: 0px 0px 30px rgba(0,0, 0, 0.8);margin-left: 500px;margin-right: 500px;margin-top:-19.5px;font-size:30px;background: rgba(128, 128, 128, .2);">ZOO</h2>
+      <section>
+    
+<div class="container">
+  <p style="color: white;text-align: justify;"><i>The London Zoo, which was opened in 1828, was initially known as the "Gardens and Menagerie of the Zoological Society of London", and it described itself as a menagerie or "zoological forest".[3] The abbreviation "zoo" first appeared in print in the United Kingdom around 1847, when it was used for the Clifton Zoo, but it was not until some 20 years later that the shortened form became popular in the song "Walking in the Zoo" by music-hall artist Alfred Vance.[3] The term "zoological park" was used for more expansive facilities in Halifax, Nova Scotia, Washington, D.C., and the Bronx in New York, which opened in 1847, 1891 and 1899 respectively.<br>
+
+Relatively new terms for zoos in the late 20th century are "conservation park" or "bio park". Adopting a new name is a strategy used by some zoo professionals to distance their institutions from the stereotypical and nowadays criticized zoo concept of the 19th century.[5] The term "bio park" was first coined and developed by the National Zoo in Washington D.C. in the late 1980s.[6] In 1993, the New York Zoological Society changed its name to the Wildlife Conservation Society and re branded the zoos under its jurisdiction as "wildlife conservation parks".</i></p>
+
+</div>
+
+<div class="test">
+  <h2 style="color:beige;text-align: center;font-size: 50px;">TESTIMONIALS</h2>
+    <ol type="1" style="font-size:25px;color:white;padding-left:20px"><i>
+  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa<b style="color:#416a59">:BY-xyz</b></li>
+  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa<b style="color:#416a59">:BY-xyz</b></li>
+  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa<b style="color:#416a59">:BY-xyz</b></li>
+</i>
+</ol>
+
+</div>
+
+<div class="x">
+  <address>
+<p style="font-size:25px ;color:#1589FF;display: inline-block;">
+  E-mail:</p><a href="mailto:abc@gmail.com" style="margin-left: px;font-size: 25px;color: beige;"><b>abc@gmail.com</b></a>
+  <p style="font-size:25px ;color:#1589FF;display: inline-block;">
+  Contact Us:</p><a href="tel:+98327583459" style="margin-left: px;font-size: 25px;color: beige;"><b>98327583459</b></a>
+  </address>
+</div>
+  
+
+<div class="slider">
+
+ 
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="a1.jpg" style="width:100% ;height: 200px;" >
+    <div class="text">picture 1</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="a2.jpg" style="width:100%;height: 200px">
+    <div class="text">picture 2</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="a3.jpg" style="width:100%;height: 200px">
+    <div class="text">picture 3</div>
+  </div>
+
+ 
+  <a class="previos" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="d" onclick="currentSlide(1)"></span>
+  <span class="d" onclick="currentSlide(2)"></span>
+  <span class="d" onclick="currentSlide(3)"></span>
+</div>
+<script type="text/javascript">
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("d");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+</body>
+  
+</html>
+
